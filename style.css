@@ -1,0 +1,38 @@
+body {
+    background-image: url(calculator.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 380px;
+    margin: 3vh auto 0 auto;
+    box-shadow: 5px 5px 5px 5px black;
+    padding-top: 10px;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 2px solid #999;
+    margin-bottom: 10px;
+}
+
+.components {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.component {
+    border: 1px solid #999;
+    line-height: 85px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
